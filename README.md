@@ -6,14 +6,6 @@ The development of the K2K model integrates the Kolmogorov-Arnold Network (KAN) 
 
 We provide scripts to run test cases in TableI.
 
-Adjustable settings are in _model.py.
+Adjustable settings are mainly in Kan_agient.py. Before executing the code, please ensure that the file path variable File_save_path in Agent_Func.py is appropriately modified.
 
-Executes with: $ python main_workflow.py and may take anywhere from a few hours to a few days, depending on the model and settings used. Relevant information is printed into several files:
-
-cost.pkl: the objective function
-hist.pkl: historical testing misfit
-size.pkl: historical endpoint cache size
-score.txt: convergence of the test score versus model evaluations
-stop: a database of the endpoints of the optimizers
-func.db: a database of the learned surrogates
-eval: a database of evaluations of the objective
+Executes with: $ python Kan_agient.py and may take anywhere from a few hours to a few days, depending on the model and settings used.
