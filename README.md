@@ -9,3 +9,5 @@ We provide scripts to run test cases in TableI.
 Adjustable settings are mainly in Kan_agient.py. Before executing the code, please ensure that the file path variable File_save_path in Agent_Func.py is appropriately modified.
 
 Executes with: $ python Kan_agient.py and may take anywhere from a few hours to a few days, depending on the model and settings used.
+
+Note: The K2K program is specifically developed to search for optimal oxygen control strategies for LFRs, with the code tailored to this particular application. When applying K2K to other problems, adaptive modifications and secondary development should be undertaken to meet the specific requirements and characteristics of the new application.
