@@ -1,0 +1,9 @@
+conda create -n K2Kenv python=3.9
+conda activate K2Kenv
+pip install numpy==1.26.4
+pip install torch==2.0.0 torchvision==0.15.0
+pip install scikit-learn==1.4.2
+pip install matplotlib==3.7.2
+pip install tqdm==4.66.2
+pip install sympy==1.14.0
+pip install scipy==1.10.1
